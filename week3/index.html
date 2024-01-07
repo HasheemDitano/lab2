@@ -15,6 +15,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
+        font-family: "Helvetica", sans-serif;
       }
 
       .text-container {
@@ -25,29 +26,22 @@
 
       .my-name {
         font-size: 30px;
-        font-family: "Helvetica", sans-serif;
         margin-bottom: 3px;
       }
 
       .hasheem-ditano {
         font-size: 45px;
-        font-family: "Helvetica", sans-serif;
-        font-weight: 800; /* Increased font weight for boldness */
+        font-weight: 800;
         margin-top: 0;
         color: rgba(223, 32, 207, 0.986);
       }
 
       .additional-text {
         font-size: 20px;
-        font-family: "Helvetica", sans-serif;
         color: white;
-        background: linear-gradient(
-          to right,
-          #da19b3,
-          #efade9
-        ); /* Gradient background */
+        background: linear-gradient(to right, #da19b3, #efade9);
         padding: 10px;
-        border-radius: 10px; /* Adjust the border radius as needed */
+        border-radius: 10px;
       }
 
       .imagehash {
@@ -57,12 +51,35 @@
         height: auto;
         max-height: 500px;
         border: 5px solid rgb(252, 156, 255);
-        border-radius: 20px; /* Adjust the border radius as needed */
+        border-radius: 20px;
         background: linear-gradient(to right, #efade9, #9e1993);
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        text-align: left;
+        color: white;
+      }
+
+      .header h3 {
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 24px; /* Adjust as needed */
+        margin-right: 20px; /* Adjust spacing between headers */
       }
     </style>
   </head>
   <body>
+    <div class="header">
+      <h3>Hobbies</h3>
+      <h3>About Me</h3>
+    </div>
     <div class="text-container">
       <h1 class="my-name">MY NAME IS</h1>
       <h2 class="hasheem-ditano">HASHEEM DITANO</h2>
