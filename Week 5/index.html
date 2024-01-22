@@ -433,6 +433,17 @@
 
         document.getElementById("demo").innerHTML =
           person.firstName + " is " + person.age + " years old.";
+
+        let text1 = "Outside: " + typeof carName;
+        document.getElementById("demo1").innerHTML = text1;
+
+        function myFunction() {
+          let carName = "Porsche";
+          let text2 = "Inside: " + typeof carName + " " + carName;
+          document.getElementById("demo2").innerHTML = text2;
+        }
+
+        myFunction();
       </script>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
