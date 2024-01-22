@@ -466,6 +466,21 @@
 
     const myCar1 = new Car("Ford", 2014);
     const myCar2 = new Car("Audi", 2019);
+
+    function myDisplayer(some) {
+      document.getElementById("demo").innerHTML = some;
+    }
+
+    function myFirst() {
+      myDisplayer("Aloha");
+    }
+
+    function mySecond() {
+      myDisplayer("Aloha");
+    }
+
+    myFirst();
+    mySecond();
   </script>
 </footer>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
