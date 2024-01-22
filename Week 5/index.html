@@ -424,26 +424,30 @@
         ><i class="fa fa-angle-up"></i
       ></a>
       <script>
-        const person = {
-          firstName: "Hasheem",
-          lastName: "Ditano",
-          age: 19,
-          haircolor: "blue",
-        };
+       <script type="module">
+  import message from "./message.js";
 
-        document.getElementById("demo").innerHTML =
-          person.firstName + " is " + person.age + " years old.";
+  const person = {
+    firstName: "Hasheem",
+    lastName: "Ditano",
+    age: 19,
+    haircolor: "blue",
+  };
+</script>
 
-        let text1 = "Outside: " + typeof carName;
-        document.getElementById("demo1").innerHTML = text1;
+                document.getElementById("demo").innerHTML =
+                  person.firstName + " is " + person.age + " years old.";
 
-        function myFunction() {
-          let carName = "Porsche";
-          let text2 = "Inside: " + typeof carName + " " + carName;
-          document.getElementById("demo2").innerHTML = text2;
-        }
+                let text1 = "Outside: " + typeof carName;
+                document.getElementById("demo1").innerHTML = text1;
 
-        myFunction();
+                function myFunction() {
+                  let carName = "Porsche";
+                  let text2 = "Inside: " + typeof carName + " " + carName;
+                  document.getElementById("demo2").innerHTML = text2;
+                }
+
+                myFunction();
       </script>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
