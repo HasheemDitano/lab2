@@ -489,9 +489,9 @@
 <script src="assets/js/stylish-portfolio.js"></script>
 
 <?php
-$firstvalue = 9
-$secondvalue = 6
-$sum = $firstvalue + $secondvalue;
+if (45 > 87) {
+  echo "Hi hash!";
+}
 ?>
 
 
