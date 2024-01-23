@@ -1,3 +1,7 @@
+<?php
+$firstname = "Hasheem";
+?>
+
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
   <head>
@@ -38,6 +42,7 @@
   </head>
 
   <body id="page-top">
+    
     <nav class="navbar navbar-expand navbar-light" id="sidebar-wrapper">
       <div class="container">
         <button
