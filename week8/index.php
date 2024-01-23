@@ -1,6 +1,3 @@
-<?php
-$firstname = "Hasheem";
-?>
 
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
@@ -492,8 +489,11 @@ $firstname = "Hasheem";
 <script src="assets/js/stylish-portfolio.js"></script>
 
 <?php
-$cars = array("Volvo","BMW","Toyota")
+$firstvalue = 9
+$secondvalue = 6
+$sum = $firstvalue + $secondvalue;
 ?>
+
 
 </body>
 </html>
