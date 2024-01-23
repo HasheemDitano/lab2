@@ -435,64 +435,9 @@
   <a class="js-scroll-trigger scroll-to-top rounded" href="#page-top">
     <i class="fa fa-angle-up"></i>
   </a>
-  <script type="module">
-    import message from "./message.js";
-
-    const person = {
-      firstName: "Hasheem",
-      lastName: "Ditano",
-      age: 19,
-      haircolor: "blue"
-    };
-
-    document.getElementById("demo").innerHTML =
-      person.firstName + " is " + person.age + " years old.";
-
-    let text1 = "Outside: " + typeof person.firstName;
-    document.getElementById("demo1").innerHTML = text1;
-
-    function myFunction() {
-      let carName = "Porsche";
-      let text2 = "Inside: " + typeof carName + " " + carName;
-      document.getElementById("demo2").innerHTML = text2;
-    }
-
-    myFunction();
-
-    class Car {
-      constructor(name, year) {
-        this.name = name;
-        this.year = year;
-      }
-    }
-
-    const myCar1 = new Car("Ford", 2014);
-    const myCar2 = new Car("Audi", 2019);
-
-    function myDisplayer(some) {
-      document.getElementById("demo").innerHTML = some;
-    }
-
-    function myFirst() {
-      myDisplayer("Aloha");
-    }
-
-    function mySecond() {
-      myDisplayer("Aloha");
-    }
-
-    myFirst();
-    mySecond();
-  </script>
 </footer>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/stylish-portfolio.js"></script>
-
-<?php
-if (45 > 87) {
-  echo "Hi hash!";
-}
-?>
 
 
 </body>
