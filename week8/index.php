@@ -490,5 +490,11 @@ $firstname = "Hasheem";
 </footer>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/stylish-portfolio.js"></script>
+<?php
+print "<h2>PHP is so Fun!</h2>";
+print "Hello Guys!<br>";
+print "I'm about to learn PHP!";
+?>
+
 </body>
 </html>
