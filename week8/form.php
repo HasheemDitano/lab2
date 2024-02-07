@@ -112,7 +112,7 @@ $dbname = "webprogmi222_sf221";
   }
 
   $sql = "INSERT INTO aoditano_myguests (name , email, website, comment, gender)
-  VALUES ('$name', '$email', '$webaddsite', '$comment', '$gender')";
+  VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
