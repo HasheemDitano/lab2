@@ -101,6 +101,12 @@ echo $gender;
 ?>
 
 <?php
+//$servername = "localhost";
+//$username = "root";
+//$password = "";
+//$dbname = "myDB";  
+  
+// For socitcloud
 $servername = "localhost";
 $username = "webprogmi222_sf221";
 $password = "xE*Y2nleNVvZm[!!";
@@ -113,18 +119,17 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO aoditano_myguests (name , email, website, comment, gender)
+$sql = "INSERT INTO aoditano_myguests (name, email, website, comment, gender)
 VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
-echo "New record created successfully";
+  echo "New record created successfully";
 } else {
-echo "Error: " . $sql . "<br>" . $conn->error;
+  echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();
 ?>
 
 </body>
-
 </html>
