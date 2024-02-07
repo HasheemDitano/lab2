@@ -111,7 +111,7 @@ echo $gender;
     die("Connection failed: " . $conn->connect_error);
   }
 
-  $sql = "INSERT INTO MYGUESTS (name , email, website, comment, gender)
+  $sql = "INSERT INTO aoditano_myguests (name , email, website, comment, gender)
   VALUES ('$name', '$email', '$webaddsite', '$comment', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
